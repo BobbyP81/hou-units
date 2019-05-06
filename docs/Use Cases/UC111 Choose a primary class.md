@@ -1,28 +1,43 @@
 # Use Case ###: Name
 
 ### Subject Area
-Group of the use case (e.g. `Trading`, `Events`, `Guild Bank`).
+`General`
 
 ### Actors
-In which role is the use case executed (e.g. `Unauthorized User`, `Normal Guild Member`, `Leadership Member`)?
-Which other actors participate in the use case?
+`Normal Guild Member`, `Leadership Member`
 
 ### Overview
-Brief overview of the use case.
+User chooses a Primary class from a list of buttons
 
 ### Preconditions
-What conditions must be met so this use case can be performed? Does this use case depend upon other use cases?
+-User must have signed up to the website
+-User must be logged in to the website
 
 ### Termination Outcome
-What are the possible successful and unseccessful results of this use case?
+-Success: User is able to click on each of the Primary class buttons without error
+-Fail: User encounters an error when clicking on any of the Primary class buttons 
 
 ### Use Case Description
 List of the possible actions the actor performs, and the termination outcomes, including references to mandatory and optional input and output data.
+-User clicks on Tank button
+-User clicks on Summoner button
+-User clicks on Bard button
+-User clicks on Cleric button
+-User clicks on Mage button
+-User clicks on Ranger button
+-User clicks on Fighter button
+-User clicks on Rogue button
+
 
 ### Input Summary
-What data input will the actor provide?  
-Numbering like `IN10`, `IN20`, `IN30`, etc., leaving space in between to add additional data inputs afterwards.  
-Provide additional information as sub-list.
+-User clicks on Tank button 'IN10'
+-User clicks on Summoner button 'IN20'
+-User clicks on Bard button 'IN30'
+-User clicks on Cleric button 'IN40'
+-User clicks on Mage button 'IN50'
+-User clicks on Ranger button 'IN60'
+-User clicks on Fighter button 'IN70'
+-User clicks on Rogue button 'IN80'
 
 ### Output Summary
 What data output will the system provide?  
